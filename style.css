@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #141414;
+    padding: 0;
+    margin:0;
+    color: #fff;
+}
+body .page{
+    margin: 20px 80px;
+}
+/* barre de nav */
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #141414;
+    padding: 10px 0px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+}
+nav .onglets a{
+    margin-right: 20px;
+    cursor:pointer;
+    text-decoration: none;
+    color:#fff;
+
+}
+nav .buttons button{
+    padding: 13px 20px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor:pointer;
+    outline:none;
+}
+nav .buttons .login{
+    background-color: inherit;
+    margin-right: 10px;
+    color:gray;
+}
+nav .buttons .register{
+    background-color:blue;
+    margin-right: 10px;
+    color:white;
+}
+/* fin de nav */
+
+/* Header */
+header{
+    margin-top: 40px;
+    background:url('https://static.rmnet.be/imgcontrol/clients/rmnet/c750-d511/content/medias/e-health/intelligence_artificielle_2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px 600px;
+
+}
+header h1{
+    text-align: center;
+    font-size: 70px;
+    padding: 150px;
+}
+ /* fin header */
+
+
+
+ /* pied de page */
+
+footer{
+    background-color:darkslategray;
+    padding: 25px 100px;
+    color: gray;
+
+}
+ /* fin pied de page */
+
+ @media screen and (max-width: 640px){
+    body .page{
+        margin: 10px;
+    }
+    nav .onglets{
+        display: none;
+    }
+    header{
+        margin-top: 20px;
+        background-size: 150px 150px;
+    }
+    header h1{
+        font-size: 30px;
+        padding: 100px;
+    }
+ }
+
