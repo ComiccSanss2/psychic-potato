@@ -1,0 +1,233 @@
+/*--PARAMETRES GENERAUX--*/
+
+* {
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*--HEADER--*/
+
+body header div h1 {
+    color: white;
+    font-size: large;
+} 
+
+body header div nav a {
+    margin: 10px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body header div nav a:hover {
+    color: #bd5ef6;
+}
+
+
+.flexNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:rgb(19, 16, 46);
+    height: 90px;
+    width: 100%;
+    
+}
+
+.flexNav img {
+    height: 12px;
+    width: 12px;
+}
+
+/*--BANNIERE--*/
+
+.flexBody01{
+    background: url(https://wallpaperaccess.com/full/1615368.jpg);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+
+}
+
+
+.texte_espace{
+    font-size:xx-large;
+}
+
+/*--FORMULAIRE--*/
+
+.flexBody02{
+    display: flex;
+    justify-content:center;
+    height: 500px;
+    align-items: center;
+    background-color: rgb(19, 16, 46);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+form {
+    margin-top: 20px;
+    background-color: rgb(19, 16, 46);
+    width: 100%;
+}
+
+
+body .flexBody02 form h1{
+    color: #bd5ef6;
+    text-align:center;
+}
+
+
+form .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form .inputs input[type='email'], input[type='password']{
+    padding: 15px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    background-color: #221f49;
+    outline:none;
+    margin-bottom: 15px;
+}
+
+
+form p.inscription{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
+}
+
+
+form p.inscription span{
+    color: #bd5ef6;
+}
+
+
+form button{
+    display: flex;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border:none;
+    font-size: 15px;
+    color: #fff;
+    background-color: #bd5ef6;
+    outline:none;
+    cursor:pointer;
+}
+
+
+.boutonco {
+    font-size: medium;
+    color: white;
+}
+
+
+.boutonConnexion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #bd5ef6;
+    width: 20%;
+    height: 10%;
+    border-radius: 2px;
+}
+
+body div h1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.connexion {
+   font-size: xx-large;
+   letter-spacing: 5px;
+}
+
+
+/*--FOOTER--*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: small ;
+    color: white;
+    padding-top: 75px;
+    background-color: #0D0B26;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h1 {
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+footer h2 {
+    color: darkgray;
+    font-size: small;
+}
+
+
+/*--FOOTER COTE GAUCHE--*/
+
+
+.information_footer p {
+    text-align: start;
+    margin-left: 0px;
+
+}
+.information_liste_footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+    margin-bottom: 25px;
+    
+    list-style-type: none;
+}
+
+img{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+}
+.information_footer h2 span{
+    color: #bd5ef6;
+
+}
+
+/*--COPYRIGHT--*/
+
+.copyright_footer {
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+    color: darkgray;
+}
+
+/*--FOOTER COTE DROIT--*/
+
+
+.power_footer h2 a {
+    text-decoration: none;
+    color: #878787;
+}
+
+.power_footer h2 span{
+    color: #bd5ef6;
+}
+
+
+
+
+
+

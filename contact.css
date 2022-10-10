@@ -1,0 +1,275 @@
+* {
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color:rgb(17, 16, 47)
+}
+
+/*--HEADER--*/
+
+body header div h1 {
+    color: white;
+    font-size: large;
+} 
+
+body header div nav a {
+    margin: 10px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body header div nav a:hover {
+    color: #bd5ef6;
+}
+
+
+.flexNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:rgb(19, 16, 46);
+    height: 90px;
+    width: 100%;
+    
+}
+
+.flexNav img {
+    height: 12px;
+    width: 12px;
+}
+
+.flexBody01{
+    background: url(https://wallpaperaccess.com/full/1615368.jpg);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+
+}
+
+.fin {
+    display: flex;
+    align-content: center;
+    
+}
+
+
+.texte_espace{
+    font-size:xx-large;
+}
+
+.flexBody02{
+    display: flex;
+    justify-content:left;
+    height: 100%;
+    padding-right: 40%;
+    background-color: rgb(19, 16, 46);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  form {
+    margin-top: 20px;
+    background-color: rgb(19, 16, 46);
+    width: 85%;
+  }
+body .flexBody02 form h1{
+    color: #bd5ef6;
+    
+  }
+
+  form .inputs div{
+    display: flex;
+    width: 80%;
+    
+  }
+form .inputs input
+  
+  form .inputs input, [type='text'],[type='email']{
+    width: 170%;
+    height: 100px;
+    padding: 15px;
+    font-size: medium;
+    border:none;
+    border-radius: 5px;
+    background-color: #221f49;
+    color: white;
+    outline:none;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    justify-content:center;
+    
+  }
+
+
+
+  form .inputs [type='message']{
+    width: 170%;
+    font-size: medium;
+    height: 300px;
+    padding: 15px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    background-color: #221f49;
+    outline:none;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    justify-content:center;
+    
+  }
+
+  form p.inscription{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
+  }
+  form p.inscription span{
+    color: #bd5ef6;
+  }
+  form button{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 25px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: #bd5ef6;
+    outline:none;
+    padding-left:15% ;
+    padding-right: 15% ;
+    margin-left: 65%;
+    margin-bottom: 10%;
+  }
+
+.icon img{
+    width: 70px;
+    height: 70px;
+    
+}
+.boutonco {
+    font-size: medium;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.boutonConnexion {
+    display: flex;
+    background-color: #bd5ef6;
+    width: 20%;
+    height: 10%;
+    border-radius: 2px;
+    align-items: center;
+}
+
+body div h1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.connexion {
+   font-size: xx-large;
+   letter-spacing: 5px;
+}
+
+
+/*--FOOTER--*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: small ;
+    color: white;
+    padding-top: 75px;
+    background-color: #0D0B26;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h1 {
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+footer h2 {
+    color: darkgray;
+    font-size: small;
+}
+
+
+/*--FOOTER COTE GAUCHE--*/
+
+
+.information_footer p {
+    text-align: start;
+    margin-left: 0px;
+
+}
+.information_liste_footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+    margin-bottom: 25px;
+    
+    list-style-type: none;
+}
+
+img{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+}
+.information_footer h2 span{
+    color: #bd5ef6;
+
+}
+
+/*--COPYRIGHT--*/
+
+.copyright_footer {
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+    color: darkgray;
+}
+
+/*--FOOTER COTE DROIT--*/
+
+
+.power_footer h2 a {
+    text-decoration: none;
+    color: #878787;
+}
+
+.power_footer h2 span{
+    color: #bd5ef6;
+}
+
+
+body div p {
+    color: rgb(117, 114, 134);
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+}
+.icon {
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    color:rgb(117, 114, 134);
+} 
+.icon div{
+    height:250px ;
+    width:30% ;
+    background-color: rgba(13,11,38,255);
+}

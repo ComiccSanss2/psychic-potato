@@ -1,0 +1,360 @@
+/*--PARAMETRES GENERAUX--*/
+
+* {
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*--HEADER--*/
+
+body header div h1 {
+    color: white;
+    font-size: large;
+} 
+
+body header div nav a {
+    margin: 10px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body header div nav a:hover {
+    color: #bd5ef6;
+}
+
+
+.flexNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:rgb(19, 16, 46);
+    height: 90px;
+    width: 100%;
+    
+}
+
+.flexNav img {
+    height: 12px;
+    width: 12px;
+}
+
+
+.flexBody{
+
+    height: auto;
+    width: 100%;
+    background:rgb(12, 130, 162);
+    height: 800px;
+    width: 100%;
+    
+}
+
+body div p {
+    color: rgb(117, 114, 134);
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+} 
+
+
+html,body{
+    height:100%;
+}
+
+body{
+    height: 100%;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin:0;
+    padding:0;
+    background-image: url(https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08);
+    background-repeat:no-repeat;
+    background-color: #11102f;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.nomentreprise{
+    font-style:oblique;
+}
+.millieu{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:50%;
+    text-align: center;
+    padding-top: 200px;
+    margin: 25px 0;
+    font-size: 18px;
+    color: rgb(156, 149, 149);
+}
+.millieu .titre{
+    margin: 25px 0;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.millieu a{
+    width: 190px;
+    height: 70px;
+    background: #bd5ef6;
+    margin: 25px 0;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.millieu a:hover{
+    transform: scale(1.1);
+    background-color: #bd5ef6;
+    box-shadow: 5px 5px 20px #bd5ef6;
+}
+.para img{
+    width: 100%;
+    height:100%;
+}
+.para img:hover{
+    box-shadow: 5px 5px 20px #bd5ef6;
+}
+.para a{
+    width: 20%;
+    height: auto;
+    border-radius: 7px;
+}
+.para .grando{
+    width: 50%;
+}
+.hade img{
+    width:100% ;
+    height:100% ;
+    border-radius: 3px;
+}
+
+.hade div {
+    border-radius: 3px;
+}
+
+.hade a{
+    width:40% ;
+    height:100% ;
+}
+.hade a:hover{
+    box-shadow: 5px 5px 20px #bd5ef6;
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    height:50%;
+    width:80%;
+    margin: 15px 0;
+    text-align:center;
+    padding-top: 550px;
+    padding-left: 10%;
+}
+
+.para div {
+    text-align: left;
+}
+
+.para li {
+    font-weight: bold;
+}
+
+.para .simage{
+    width:24%;
+    margin:10px;
+    padding:25px;
+}
+
+.hade{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: stretch;
+    width:80% ;
+    height:50% ;
+    margin: 10px 10px;
+    text-align: center;
+    padding-top: 550px;
+    padding-left: 10%;
+}
+
+.hade .box1{
+    font-size: 15px;
+    width:24% ;
+    height: 48%;
+    color: white;
+    background-color:green ;
+    text-align:center;
+}
+.hade .box2{
+    font-size: 15px;
+    width:24% ;
+    height: 48%;
+    color: white;
+    background-color:orange ;
+    text-align:center;
+}
+.hade .box3{
+    font-size: 15px;
+    width:24% ;
+    height: 48%;
+    color: white;
+    background-color:blue ;
+    text-align:center;
+}
+.hade .box4{
+    font-size: 15px;
+    width:24% ;
+    height: 48%;
+    color: white;
+    background-color:purple;
+    text-align:center;
+}
+.hade p{
+    font-size:45px;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+}
+
+.equipe{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: stretch;
+    width:90% ;
+    height:25% ;
+    margin: 5%, 0;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 1%;
+    padding-bottom: 550px;
+}
+
+.equipe img{
+    width: 52%;
+    height:auto;
+}
+
+.equipe a{
+    background-color: rgba(13,11,38,255);
+    width: 22%;
+    height:auto;
+    margin-top: 15px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.equipe a:hover{
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px #bd5ef6;
+}
+.title{
+    font-size: 50px;
+    padding-top: 250px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ptite{
+    font-size: 15px;
+    color: rgb(117, 114, 134);
+    text-align: center;
+}
+.equipe img.nix{
+    height: 50px;
+    width: 150px;
+}
+.orn{
+    text-align: center;
+}
+.orn img{
+    height:10% ;
+    width:20% ;
+}
+
+/*--FOOTER--*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: small ;
+    color: white;
+    padding-top: 75px;
+    background-color: #0D0B26;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h1 {
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+footer h2 {
+    color: darkgray;
+    font-size: small;
+}
+
+
+/*--FOOTER COTE GAUCHE--*/
+
+
+.information_footer p {
+    text-align: start;
+    margin-left: 0px;
+
+}
+.information_liste_footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+    margin-bottom: 25px;
+    
+    list-style-type: none;
+}
+
+img{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+}
+.information_footer h2 span{
+    color: #bd5ef6;
+
+}
+
+/*--COPYRIGHT--*/
+
+.copyright_footer {
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+    color: darkgray;
+}
+
+/*--FOOTER COTE DROIT--*/
+
+
+.power_footer h2 a {
+    text-decoration: none;
+    color: #878787;
+}
+
+.power_footer h2 span{
+    color: #bd5ef6;
+}
